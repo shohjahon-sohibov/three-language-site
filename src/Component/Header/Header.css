@@ -1,0 +1,183 @@
+.hero-img {
+  background-image: url(../../assets/img/hero-image.png);
+  height: 782px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 54px;
+}
+
+.nav-list-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.nav-list-item {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 10px 10px; 
+}
+
+.nav-list-item:hover {
+  background-color: #222;
+  border-radius: 6px;
+  transition: .5s ease;
+  
+}
+
+.nav-list-item a:hover {
+  transition: .5s ease;
+  transform: scale(1.1);
+}
+
+.nav-list-item a:active {
+  color: #D52047;
+}
+
+.nav-list-item a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 215px;
+}
+
+.language-text {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* .language-text::before {
+  content: "";
+  background-image: url(../../assets/img/us-flag.png);
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.language-text::after {
+  content: "";
+  background-image: url(../../assets/img/lan-selector.png);
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+} */
+
+.language-select {
+  margin-top: 25px;
+  max-width: 80px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.login {
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.login:hover {
+  background-color: #222;
+  transition: .5s ease;
+}
+
+.login:active {
+  background-color: #fff;
+}
+
+.login-link:active {
+  color: #444;
+  transform: scale(1.5);
+}
+
+.login-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.hero-content {
+  width: 578px;
+  margin: auto;
+  margin-top: 140px;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero-text {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 39px;
+}
+
+.sign-up {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ED4C5C;
+  background: #FFFFFF;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px 50px;
+  margin-left: 210px;
+}
+
+.sign-up:hover {
+  background-color: #222;
+  transition: .5s ease;
+}
+
+.sign-up:active {
+  color: white;
+  font-size: 18px;
+}
